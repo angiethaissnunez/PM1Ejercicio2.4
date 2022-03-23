@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59939A"
+    tools:context=".ActivityAgregar">
+
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="338dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="INGRESA UNA DESCRIPCION"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Registrar Firmas"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/btnLista"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/teal_700"
+        android:foregroundGravity="top|center"
+        android:text="LISTA"
+        app:icon="@android:drawable/ic_menu_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/teal_700"
+        android:foregroundGravity="top|center"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/btnBorrarFirm"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/teal_700"
+        android:foregroundGravity="top|center"
+        android:text="LIMPIAR FIRMA"
+        app:icon="@android:drawable/ic_notification_clear_all"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="155dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="GUARDAR"
+        app:icon="@android:drawable/ic_menu_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882" />
+
+    <com.example.pm1ejercicio24.Lienzo
+        android:id="@+id/LienzoF"
+        android:layout_width="336dp"
+        android:layout_height="323dp"
+        android:background="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
